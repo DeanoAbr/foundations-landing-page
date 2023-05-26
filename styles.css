@@ -1,8 +1,42 @@
 .body {
     display: flex;
     flex-direction: column;
+    flex: 1 0 auto;
 }
 
 .header {
     display: flex;
+    background-color: #1F2937;
 }
+
+.signup {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.logo {
+    width: 200px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.awesomeimage {
+    height: 200px;
+    width: 600px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quotetext {
+    font-style: italic;
+    font-size: 36px;
+}
+
+
+
+/*#1F2937*/
