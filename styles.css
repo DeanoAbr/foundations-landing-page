@@ -1,8 +1,10 @@
 body {
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
 
 ul {
   display: flex;
@@ -40,8 +42,17 @@ li {
     background-color: #1f2937;
     display: flex;
 
+    .signupb {
+      background-color: #3882f6;
+      color: #f9faf8;
+      border-color: #1f2937;
+      border-radius: 5px;
+    }
+
+
     .leftwrap {
       flex: 1;
+      padding: 40px;
 
       .awesome {
         font-size: 48px;
@@ -49,42 +60,74 @@ li {
         color: #f9faf8;
       }
 
-      .subtext{
+      .subtext {
         color: #f9faf8;
+
       }
 
-      .signupb {
-        background-color: #1f2937;
-        flex: 1 0 auto;
-      }
 
-      
+
+
     }
 
     .rightwrap {
       flex: 1;
+      padding: 40px;
 
       .awesomeimage {
         height: 200px;
-        width: 600px;
+        width: 350px;
         display: flex;
       }
     }
   }
- 
- 
-  
-    display: flex;
 
-    .random {
-    font-style: italic;
-    font-size: 36px;
-    display: flex;
-    flex: 1 0 auto;
-    justify-content: center;
+
+  .random {
+
+    .randomHeader {
+      font-style: italic;
+      font-size: 36px;
+      display: flex;
+      flex: 1 0 auto;
+      justify-content: center;
+    }
+
+    .subtextContainer {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+
+      .sqcont {
+
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        align-items: center;
+        width: 15%;
+
+
+        .square {
+          height: 100px;
+          width: 100px;
+          background-color: white;
+          border-style: solid;
+          border-color: #3882f6;
+          border-radius: 10px;
+        }
+
+        .subtext {
+          display: flex;
+          flex: 1;
+          flex-direction: row;
+        }
+      }
+    }
   }
 
-  
+
 
   .quote {
     background-color: #e5e7eb;
@@ -93,8 +136,10 @@ li {
 
     .quotetext {
       font-style: italic;
+      font-weight: 300;
       font-size: 36px;
       display: flex;
+      padding: 30px;
     }
 
     .thor {
@@ -102,16 +147,28 @@ li {
       font-size: 36px;
       display: flex;
       flex: 1 0 auto;
+      justify-content: flex-end;
     }
   }
 
-  
 
-  
+
+
 }
 
 .calltoaction {
   display: flex;
+  background-color: #3882f6;
+
+  color: white;
+
+  .signupb {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 5px;
+  }
+
 }
 
 .footer {
